@@ -2,6 +2,7 @@ from datetime import datetime
 from TaskManager import TaskManager
 from Task import Task
 import argparse
+import glob
 import os
 
 parser = argparse.ArgumentParser(description="Welcome to ToDoist")
